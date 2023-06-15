@@ -1,4 +1,21 @@
+import 'package:mosam/services/location.dart';
+import 'package:mosam/services/networking.dart';
+
+const apiKey = 'a347b23208211b27ba98817946a661e6';
+const openWeathermapURL = 'https://api.openweathermap.org/data/2.5/weather';
+
 class WeatherModel {
+  Future<dynamic> getLocationWeather() async {
+    Location location = Location();
+    await location.getCurrentLocation();
+    NetworkHelper networkHelper = NetworkHelper(
+        url:
+            '$openWeathermapURL?lat=${location.latitude}&lon=${location.longitude}&appid=$apiKey&units=metric');
+
+    var weatherData = await networkHelper.getData();
+    return weatherData;
+  }
+
   String getWeatherIcon(int condition) {
     if (condition < 300) {
       return '🌩';
