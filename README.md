@@ -1,4 +1,4 @@
-# Mosam
+# Mosam🌤️
 
 This is a weather application built using Flutter.
 
