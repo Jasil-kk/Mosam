@@ -8,11 +8,11 @@ This is a weather application built using Flutter.
 - 7-day forecast
 - Location-based weather updates
 
-
 ## Screenshots
 
-![Screenshot 1](images/scrrenshots/screenshot1.jpeg)
-![Screenshot 2](images/scrrenshots/screenshot2.jpeg)
+![Screenshot 1](images/screenshots/screenshot1.jpeg)
+![Screenshot 2](images/screenshots/screenshot2.jpeg)
+
 
 ## Getting Started
 
