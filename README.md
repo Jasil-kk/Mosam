@@ -11,8 +11,8 @@ This is a weather application built using Flutter.
 
 ## Screenshots
 
-![Screenshot 1](images/screenshots/screenshot1.jpeg)
-![Screenshot 2](images/screenshots/screenshot2.jpegg)
+![Screenshot 1](images/scrrenshots/screenshot1.jpeg)
+![Screenshot 2](images/scrrenshots/screenshot2.jpeg)
 
 ## Getting Started
 
